@@ -137,7 +137,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.000010554959, y: 1.0796412, z: -0.025321364}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 8161009094427276497}
   m_Father: {fileID: 8161009094427154601}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -464,12 +465,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8161009094427524537}
-  m_LocalRotation: {x: 0.0871554, y: 0, z: 0, w: -0.9961947}
-  m_LocalPosition: {x: 0, y: 1.7, z: 1.35}
+  m_LocalRotation: {x: 0.0871554, y: -0, z: -0, w: -0.9961947}
+  m_LocalPosition: {x: -0.000010554959, y: 0.6203586, z: 1.3753213}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 8161009094427253873}
-  m_RootOrder: 3
+  m_Father: {fileID: 8161009094427205169}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8161009094427526325
 GameObject:
@@ -5357,7 +5358,7 @@ RectTransform:
   - {fileID: 8161009094447249085}
   - {fileID: 8161009094447141317}
   m_Father: {fileID: 8161009094427253873}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5465,7 +5466,6 @@ Transform:
   - {fileID: 8161009094427154601}
   - {fileID: 8161009094427224301}
   - {fileID: 8161009094427158509}
-  - {fileID: 8161009094427276497}
   - {fileID: 8161009094447195957}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -5706,6 +5706,7 @@ MonoBehaviour:
   m_PlayerNumber: 1
   m_Speed: 12
   m_TurnSpeed: 180
+  m_TurretSpeed: 0
   m_MovementAudio: {fileID: 8161009094433004969}
   m_EngineIdling: {fileID: 8300000, guid: 4932ab25b84dd7649b80af68a9660ddc, type: 3}
   m_EngineDriving: {fileID: 8300000, guid: d7ca9fb5aa30155449192b23d7fb3336, type: 3}
