@@ -93,8 +93,8 @@ namespace Complete
                 Instantiate (m_Shell, m_FireTransform.position, m_FireTransform.rotation) as Rigidbody;
             
             photonView.RPC("FireOther", RpcTarget.Others
-                ,m_FireTransform.position
-                ,m_CurrentLaunchForce);
+                ,m_FireTransform.position                
+                , m_CurrentLaunchForce);
 
             // Set the shell's velocity to the launch force in the fire position's forward direction.
             shellInstance.velocity = m_CurrentLaunchForce * m_FireTransform.forward; 
